@@ -1,0 +1,3 @@
+main: me.yushust.protocol.tests.ProtocolTestsPlugin
+name: ProtocolTests
+version: 0.1.0
