@@ -49,7 +49,7 @@ public class ProtocolTestsPlugin extends JavaPlugin implements Listener {
       if (PacketChannelDuplexHandler.INTERCEPTORS.containsKey(klass)) {
         PacketChannelDuplexHandler.INTERCEPTORS.remove(klass);
       } else {
-        PacketChannelDuplexHandler.INTERCEPTORS.put(klass, new LoggingPacketInterceptor<>(10));
+        PacketChannelDuplexHandler.INTERCEPTORS.put(klass, new LoggingPacketInterceptor<>(0));
       }
     }
   }
